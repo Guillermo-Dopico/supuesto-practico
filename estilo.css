@@ -1,0 +1,69 @@
+html{
+    color: black;
+}
+body
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 8px;
+    background-color: rgb(223, 220, 82);
+}
+nav a{
+    background-color: rgb(13, 182, 50);
+    font-size: 15px;
+    text-decoration: none ;
+}
+nav p
+{
+    color: #0000006f;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    text-decoration: none;
+}   
+h1{
+    color: rgb(255, 0, 0);
+    background-color: aquamarine;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: black 3px solid;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+strong{
+    color: green;
+    font-size: 20px;
+}
+h3{
+color: red;
+font-size: 20px;
+}
+main p{
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(13, 182, 50);
+    padding: 0%;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: coral;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav p{
+    color: lime;
+    padding-bottom: 15px;
+    font-size: 27px;
+}
+div {
+    text-align: center;}
+/* Las imagenes se comportan como si fuera un texto */
