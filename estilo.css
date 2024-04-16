@@ -11,17 +11,26 @@ body
 }
 nav a{
     background-color: rgb(13, 182, 50);
-    font-size: 15px;
+    font-size: 25px;
     text-decoration: none ;
 }
 nav p
 {
-    color: #0000006f;
-    font-size: 11px;
     font-family: Arial, sans-serif;
     background-color: beige;
     text-decoration: none;
-}   
+    color: lime;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+nav li a :hover {
+    background: rgb(190, 51, 255);
+    font-size: 25px;
+}  
+nav li {
+    display: inline-block;
+    text-align: center;
+}
 h1{
     color: rgb(255, 0, 0);
     background-color: aquamarine;
@@ -45,7 +54,7 @@ main p{
 }
 nav{
     background-color: rgb(13, 182, 50);
-    padding: 0%;
+    padding: 2%;
     width: 80%;
     max-width: 1000px;
     margin: auto;
@@ -59,11 +68,10 @@ nav a:hover{
     border-radius: 10px;
     text-decoration: none;
 }
-nav p{
-    color: lime;
-    padding-bottom: 15px;
-    font-size: 27px;
-}
 div {
-    text-align: center;}
+    box-align: center;
+}
+ul {
+    list-style: none;
+}
 /* Las imagenes se comportan como si fuera un texto */
