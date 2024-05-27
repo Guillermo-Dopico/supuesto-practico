@@ -5,8 +5,18 @@ body{
     color: black;
     font-size: 20px;
     font-family: Arial, sans-serif;
-    margin: 8px;
     background-color: rgb(223, 220, 82);
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header {
+    text-align: left;
+    margin-left: 30px;
+}
+header p{
+    margin-left: 25px;
 }
 nav a{
     background-color: rgb(13, 182, 50);
@@ -33,11 +43,13 @@ nav li{
     text-align: center;
 }
 h1{
-    color: rgb(255, 0, 0);
+    color: rgb(7, 5, 5);
     background-color: aquamarine;
     font-size: 25px;
     border: black 3px solid;
     padding: 5px;
+    box-align: center;
+    margin-top: 30px;
     margin: 5px;
     display: inline;
 }
@@ -45,12 +57,17 @@ strong{
     color: rgb(0, 128, 83);
     font-size: 20px;
 }
-h3{
-color: rgb(0, 51, 255);
-font-size: 23px;
+h2{
+    text-align: center;
 }
-main p{
+h3{
+    color: rgb(0, 51, 255);
+    font-size: 23px;
+}
+main {
     font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
 }
 nav{
     background-color: rgb(13, 182, 168);
@@ -68,9 +85,15 @@ nav a:hover{
     border-radius: 10px;
     text-decoration: none;
 }
-div {
-  box-align: center;
+main div {
+    text-align: center;
+}
+main p{
+    margin-left: 40px;
 }
 ul {
-    list-style: none;
+   list-style: none;
+}
+.color {
+color: red;
 }
